@@ -7,7 +7,7 @@
 	"passthrough": false,
 	"gtk-layer-shell": true,
 	"height": 30,
-  "width": 500,
+	"width": 400,
 	"modules-left": ["hyprland/workspaces"],
 	"modules-center": ["clock"],
 	"modules-right": [
@@ -67,11 +67,12 @@
 			"critical": 20
 		},
 		"format": "{icon} {capacity}",
-		"format-charging": "󱃱 {capacity}",
-		"format-plugged": "󱃱 {capacity}",
+		"format-charging": " {capacity}",
+		"format-plugged": " {capacity}",
 		"format-alt": "{time} {icon}",
-    "format-icons": ["󱢠 󱢠 󱢠 ","󱢠 󱢠 󰛞 ","󱢠 󱢠 󰋑 ","󱢠 󰛞 󰋑 ","󱢠 󰋑 󰋑 ","󰛞 󰋑 󰋑 ","󰋑 󰋑 󰋑 "]
-		//"format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
+    		//"format-icons": ["󱢠 󱢠 󱢠 ","󱢠 󱢠 󰛞 ","󱢠 󱢠 󰋑 ","󱢠 󰛞 󰋑 ","󱢠 󰋑 󰋑 ","󰛞 󰋑 󰋑 ","󰋑 󰋑 󰋑 "]
+		//"format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+		"format-icons": ["", "", "", "", ""]
 	},
 	"pulseaudio": {
 		"format": "{icon} {volume}%",
